@@ -1,0 +1,30 @@
+.gridContainer {
+  margin-left: var(---margin-left);
+  margin-right: var(---margin-right);
+  margin-bottom: 35px;
+  height: 500px;
+}
+.h2gap {
+  margin-bottom: 40px;
+}
+
+.filterPanelContainer {
+  background-color: var(---f8f9fa);
+
+  .filterPanel {
+    margin-left: var(---margin-left);
+    margin-right: var(---margin-right);
+    padding-bottom: 35px;
+    padding-top: 35px;
+    width: 760px;
+    margin-bottom: 35px;
+  }
+}
+
+.checkboxPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 25px;
+  margin-top: 25px;
+}
